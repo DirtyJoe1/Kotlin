@@ -18,7 +18,6 @@ fun main(){
             n++
         }
     }
-    ageArray.sort()
     for((i) in ageArray.withIndex()) {
         println("Возраст, Имя, Фамилия: ${ageArray[i]} ${nameArray[i]} ${surnameArray[i]}")
     }
